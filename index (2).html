@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V Talk Academy - Where English Meets Confidence</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #0d9488 0%, #047857 100%);
+        }
+        .peacock-feather {
+            background: radial-gradient(circle, #0d9488 0%, #047857 70%, #065f46 100%);
+        }
+        .hover-scale {
+            transition: transform 0.3s ease;
+        }
+        .hover-scale:hover {
+            transform: scale(1.03);
+        }
+        .testimonial-card {
+            box-shadow: 0 10px 30px -10px rgba(13, 148, 136, 0.3);
+        }
+        .course-card {
+            transition: all 0.3s ease;
+        }
+        .course-card:hover {
+            box-shadow: 0 20px 25px -5px rgba(13, 148, 136, 0.1), 0 10px 10px -5px rgba(13, 148, 136, 0.04);
+            transform: translateY(-5px);
+        }
+        .peacock-pattern {
+            background-color: #065f46;
+            background-image: radial-gradient(circle, #10b981 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+        .peacock-icon {
+            color: #0d9488;
+            text-shadow: 0 0 5px rgba(16, 185, 129, 0.5);
+        }
+    </style>
+</head>
+<body class="font-sans antialiased text-gray-800">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <span class="text-teal-600 font-bold text-2xl">V Talk</span>
+                        <span class="text-gray-800 font-bold text-2xl">Academy</span>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="text-gray-900 hover:text-teal-600 px-3 py-2 text-sm font-medium">Home</a>
+                    <a href="#about" class="text-gray-900 hover:text-teal-600 px-3 py-2 text-sm font-medium">About</a>
+                    <a href="#method" class="text-gray-900 hover:text-teal-600 px-3 py-2 text-sm font-medium">Our Method</a>
+                    <a href="#programs" class="text-gray-900 hover:text-teal-600 px-3 py-2 text-sm font-medium">Programs</a>
+                    <a href="#success" class="text-gray-900 hover:text-teal-600 px-3 py-2 text-sm font-medium">Success Stories</a>
+                    <a href="#contact" class="text-gray-900 hover:text-teal-600 px-3 py-2 text-sm font-medium">Contact</a>
+                    <a href="#free-trial" class="bg-teal-600 hover:bg-teal-700 text-white px-4 py-2 rounded-md text-sm font-medium">Free Trial</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-teal-600 hover:bg-gray-100 focus:outline-none">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="gradient-bg text-white py-20 peacock-pattern">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="md:flex items-center justify-between">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-4">Where English Meets Confidence</h1>
+                    <p class="text-xl mb-8">India's New-Age English Academy for Students, Professionals, and Aspiring Communicators</p>
+                    <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                        <a href="#" class="bg-white text-teal-600 hover:bg-gray-100 px-6 py-3 rounded-md text-lg font-semibold text-center hover-scale">Start Learning Now</a>
+                        <a href="#" class="border-2 border-white text-white hover:bg-white hover:text-teal-600 px-6 py-3 rounded-md text-lg font-semibold text-center hover-scale">Book Your Free Trial</a>
+                    </div>
+                </div>
+                <div class="md:w-1/2 flex justify-center">
+                    <img src="https://images.unsplash.com/photo-1580894732444-8ecded7900cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Students learning" class="rounded-lg shadow-2xl max-w-md w-full border-4 border-teal-500">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What Makes Us Different -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">What Makes Us Different</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md hover-scale">
+                    <div class="text-teal-600 mb-4">
+                        <i class="fas fa-theater-masks text-4xl peacock-icon"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Immersive Learning</h3>
+                    <p class="text-gray-600">Role plays, dramas, and movie-based lessons bring English to life.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md hover-scale">
+                    <div class="text-teal-600 mb-4">
+                        <i class="fas fa-certificate text-4xl peacock-icon"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Certified Programs</h3>
+                    <p class="text-gray-600">Nationally recognized qualifications that add career credibility.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md hover-scale">
+                    <div class="text-teal-600 mb-4">
+                        <i class="fas fa-users text-4xl peacock-icon"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Interactive Workshops</h3>
+                    <p class="text-gray-600">Hands-on language labs that boost creativity and curiosity.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md hover-scale">
+                    <div class="text-teal-600 mb-4">
+                        <i class="fas fa-globe text-4xl peacock-icon"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Real-World Focus</h3>
+                    <p class="text-gray-600">Bridging the gap between academic learning and everyday communication.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="md:flex items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10">
+                    <h2 class="text-3xl font-bold mb-6">About V Talk Academy</h2>
+                    <p class="text-lg mb-6">At V Talk Academy, we believe that mastering English should go beyond rote grammar and textbook drills. Language is a life skill — and we treat it that way.</p>
+                    <p class="text-lg mb-6">Our Practical English Learning Program is designed for real-world impact. Whether it's students, young professionals, or aspiring communicators, we focus on immersive, interactive experiences that empower learners to speak, think, and express confidently.</p>
+                    <p class="text-lg mb-8 font-semibold text-teal-600">We don't just teach English — we bring it to life.</p>
+                    <div class="bg-teal-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold text-teal-600 mb-2">Our Vision</h3>
+                        <p class="text-gray-700">To be the go-to language academy where learners grow beyond grammar and speak with clarity, purpose, and pride.</p>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80" alt="Team meeting" class="rounded-lg shadow-lg w-full border-4 border-teal-500">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Method Section -->
+    <section id="method" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">🎭 How We Teach: Learning by Doing</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8 mb-12">
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <div class="flex items-start mb-6">
+                        <div class="bg-teal-100 rounded-full w-12 h-12 flex items-center justify-center mr-4">
+                            <i class="fas fa-mask text-teal-600 text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold">Role Plays & Dramas</h3>
+                            <p class="text-gray-600">Practice real conversations through role-based learning scenarios that mirror everyday situations.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <div class="flex items-start mb-6">
+                        <div class="bg-teal-100 rounded-full w-12 h-12 flex items-center justify-center mr-4">
+                            <i class="fas fa-film text-teal-600 text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold">Movie-Based Lessons</h3>
+                            <p class="text-gray-600">Learn tone, vocabulary, and natural expression through curated cinema clips and analysis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <div class="flex items-start mb-6">
+                        <div class="bg-teal-100 rounded-full w-12 h-12 flex items-center justify-center mr-4">
+                            <i class="fas fa-comments text-teal-600 text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold">Group Discussions</h3>
+                            <p class="text-gray-600">Build critical thinking and fluent speech in dynamic group settings on current topics.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <div class="flex items-start mb-6">
+                        <div class="bg-teal-100 rounded-full w-12 h-12 flex items-center justify-center mr-4">
+                            <i class="fas fa-flask text-teal-600 text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold">Interactive Workshops</h3>
+                            <p class="text-gray-600">Hands-on language labs that boost creativity, curiosity, and practical application.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-12 text-center">
+                <div class="bg-teal-50 p-8 rounded-lg inline-block max-w-3xl">
+                    <h3 class="text-2xl font-semibold text-teal-600 mb-4">📜 Certified & Recognised</h3>
+                    <p class="text-lg mb-4">All V Talk Academy programs are officially authorized and certified, offering students a nationally recognized qualification. These certifications are designed to add academic value and career credibility.</p>
+                    <p class="text-lg font-medium">✨ Our Promise: Fun. Effective. Empowering.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">Our Programs</h2>
+            
+            <div class="mb-16">
+                <h3 class="text-2xl font-semibold mb-6 text-teal-600">Professional English</h3>
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="course-card bg-white p-6 rounded-lg shadow-md">
+                        <h4 class="text-xl font-semibold mb-3">Corporate Communication Mastery</h4>
+                        <p class="text-gray-600 mb-4">Emails, presentations, meetings, and negotiation skills for workplace success.</p>
+                        <a href="#" class="text-teal-600 font-medium inline-flex items-center">Learn more <i class="fas fa-arrow-right ml-2"></i></a>
+                    </div>
+                    <div class="course-card bg-white p-6 rounded-lg shadow-md">
+                        <h4 class="text-xl font-semibold mb-3">Startup Pitch Perfect</h4>
+                        <p class="text-gray-600 mb-4">Speak clearly with co-founders, pitch investors, and manage teams effectively.</p>
+                        <a href="#" class="text-teal-600 font-medium inline-flex items-center">Learn more <i class="fas fa-arrow-right ml-2"></i></a>
+                    </div>
+                    <div class="course-card bg-white p-6 rounded-lg shadow-md">
+                        <h4 class="text-xl font-semibold mb-3">Leadership Communication Lab</h4>
+                        <p class="text-gray-600 mb-4">Build confidence, empathy, and leadership in professional communication.</p>
+                        <a href="#" class="text-teal-600 font-medium inline-flex items-center">Learn more <i class="fas fa-arrow-right ml-2"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mb-16">
+                <h3 class="text-2xl font-semibold mb-6 text-teal-600">Academic & Exam Prep</h3>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="course-card bg-white p-6 rounded-lg shadow-md">
+                        <h4 class="text-xl font-semibold mb-3">IELTS/TOEFL Accelerator</h4>
+                        <p class="text-gray-600 mb-4">Band 7+ results in 4–6 weeks with our immersive preparation method.</p>
+                        <a href="#" class="text-teal-600 font-medium inline-flex items-center">Learn more <i class="fas fa-arrow-right ml-2"></i></a>
+                    </div>
+                    <div class="course-card bg-white p-6 rounded-lg shadow-md">
+                        <h4 class="text-xl font-semibold mb-3">Campus to Corporate</h4>
+                        <p class="text-gray-600 mb-4">Group discussion + Interview mastery for final-year students.</p>
+                        <a href="#" class="text-teal-600 font-medium inline-flex items-center">Learn more <i class="fas fa-arrow-right ml-2"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div>
+                <h3 class="text-2xl font-semibold mb-6 text-teal-600">Personal Development</h3>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="course-card bg-white p-6 rounded-lg shadow-md">
+                        <h4 class="text-xl font-semibold mb-3">Everyday Fluency Course</h4>
+                        <p class="text-gray-600 mb-4">For homemakers, teens, and beginners to build daily conversation skills.</p>
+                        <a href="#" class="text-teal-600 font-medium inline-flex items-center">Learn more <i class="fas fa-arrow-right ml-2"></i></a>
+                    </div>
+                    <div class="course-card bg-white p-6 rounded-lg shadow-md">
+                        <h4 class="text-xl font-semibold mb-3">Young Speakers Club (Ages 6–12)</h4>
+                        <p class="text-gray-600 mb-4">Fun learning with reading, drama, and creative speaking activities.</p>
+                        <a href="#" class="text-teal-600 font-medium inline-flex items-center">Learn more <i class="fas fa-arrow-right ml-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Stories -->
+    <section id="success" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">Learners Who Found Their Voice</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="testimonial-card bg-white p-8 rounded-lg">
+                    <div class="text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-700 mb-6">"From struggling to present to now pitching confidently to VCs – V Talk's role-play method changed my journey completely."</p>
+                    <div class="flex items-center">
+                        <div class="bg-teal-100 rounded-full w-12 h-12 flex items-center justify-center mr-4">
+                            <i class="fas fa-user text-teal-600"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold">Swetha</h4>
+                            <p class="text-gray-500 text-sm">Tech Entrepreneur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card bg-white p-8 rounded-lg">
+                    <div class="text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-700 mb-6">"The movie-based lessons made learning natural expressions so easy. I got placed in Infosys after just 6 weeks!"</p>
+                    <div class="flex items-center">
+                        <div class="bg-teal-100 rounded-full w-12 h-12 flex items-center justify-center mr-4">
+                            <i class="fas fa-user text-teal-600"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold">Ishaan</h4>
+                            <p class="text-gray-500 text-sm">College Final Year</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card bg-white p-8 rounded-lg">
+                    <div class="text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-700 mb-6">"Now I attend parent-teacher meetings without hesitation. The interactive workshops built my confidence tremendously."</p>
+                    <div class="flex items-center">
+                        <div class="bg-teal-100 rounded-full w-12 h-12 flex items-center justify-center mr-4">
+                            <i class="fas fa-user text-teal-600"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold">Priya</h4>
+                            <p class="text-gray-500 text-sm">Working Mom</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-10">
+                <a href="#" class="bg-teal-600 hover:bg-teal-700 text-white px-6 py-3 rounded-md text-lg font-semibold inline-flex items-center">
+                    Watch All Testimonials <i class="fas fa-play-circle ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 gradient-bg text-white peacock-pattern">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">Ready to Find Your Voice?</h2>
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <div class="mb-8">
+                        <h3 class="text-xl font-semibold mb-4 flex items-center">
+                            <i class="fas fa-map-marker-alt mr-3"></i> Visit Our HQ
+                        </h3>
+                        <p class="text-teal-100">V Talk Academy, Chennai</p>
+                    </div>
+                    <div class="mb-8">
+                        <h3 class="text-xl font-semibold mb-4 flex items-center">
+                            <i class="fas fa-phone-alt mr-3"></i> Call / WhatsApp
+                        </h3>
+                        <p class="text-teal-100">+91-XXXXXXXXXX</p>
+                    </div>
+                    <div class="mb-8">
+                        <h3 class="text-xl font-semibold mb-4 flex items-center">
+                            <i class="fas fa-envelope mr-3"></i> Email
+                        </h3>
+                        <p class="text-teal-100">hello@vtalkacademy.in</p>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4 flex items-center">
+                            <i class="fas fa-share-alt mr-3"></i> Social
+                        </h3>
+                        <div class="flex space-x-4">
+                            <a href="#" class="text-white hover:text-teal-200 text-2xl"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="text-white hover:text-teal-200 text-2xl"><i class="fab fa-youtube"></i></a>
+                            <a href="#" class="text-white hover:text-teal-200 text-2xl"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <form class="bg-white p-8 rounded-lg shadow-lg">
+                        <h3 class="text-2xl font-semibold text-gray-800 mb-6">Book Your Free Session</h3>
+                        <div class="mb-4">
+                            <label for="name" class="block text-gray-700 text-sm font-medium mb-2">Full Name</label>
+                            <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500">
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="block text-gray-700 text-sm font-medium mb-2">Email</label>
+                            <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500">
+                        </div>
+                        <div class="mb-4">
+                            <label for="phone" class="block text-gray-700 text-sm font-medium mb-2">Phone Number</label>
+                            <input type="tel" id="phone" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500">
+                        </div>
+                        <div class="mb-6">
+                            <label for="interest" class="block text-gray-700 text-sm font-medium mb-2">Program of Interest</label>
+                            <select id="interest" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500">
+                                <option>Select a program</option>
+                                <option>Corporate Communication Mastery</option>
+                                <option>Startup Pitch Perfect</option>
+                                <option>Leadership Communication Lab</option>
+                                <option>IELTS/TOEFL Accelerator</option>
+                                <option>Campus to Corporate</option>
+                                <option>Everyday Fluency Course</option>
+                                <option>Young Speakers Club</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="w-full bg-teal-600 hover:bg-teal-700 text-white py-3 px-4 rounded-md font-medium">
+                            Submit Request
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">V Talk Academy</h3>
+                    <p class="text-gray-400">Where English Meets Confidence</p>
+                    <p class="text-gray-400 mt-2">Fun. Effective. Empowering.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#about" class="text-gray-400 hover:text-white">About</a></li>
+                        <li><a href="#method" class="text-gray-400 hover:text-white">Our Method</a></li>
+                        <li><a href="#programs" class="text-gray-400 hover:text-white">Programs</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Programs</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Professional English</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Academic & Exam Prep</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Personal Development</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Connect With Us</h4>
+                    <div class="flex space-x-4 mb-4">
+                        <a href="#" class="text-gray-400 hover:text-white text-xl"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white text-xl"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white text-xl"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <p class="text-gray-400">"Let's Talk. Let's Grow."</p>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>Copyright © 2025 V Talk Academy. All rights reserved.</p>
+                <p class="mt-2">Powered by Blacxird Studio</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+<p style="border-radius: 8px; text-align: center; font-size: 12px; color: #fff; margin-top: 16px;position: fixed; left: 8px; bottom: 8px; z-index: 10; background: rgba(0, 0, 0, 0.8); padding: 4px 8px;">Made with <img src="https://enzostvs-deepsite.hf.space/logo.svg" alt="DeepSite Logo" style="width: 16px; height: 16px; vertical-align: middle;display:inline-block;margin-right:3px;filter:brightness(0) invert(1);"><a href="https://enzostvs-deepsite.hf.space" style="color: #fff;text-decoration: underline;" target="_blank" >DeepSite</a> - 🧬 <a href="https://enzostvs-deepsite.hf.space?remix=blacxird/v-talk" style="color: #fff;text-decoration: underline;" target="_blank" >Remix</a></p></body>
+</html>
